@@ -28,6 +28,30 @@ let newString;
 return newString
 }
 
-
-
 console.log(stringArray(numbers))
+
+//Or
+let string =''
+
+const altString = array =>{
+   let i = 0
+   
+while(i < array.length){
+  string = string + array[i]
+  i++
+}
+
+return string
+
+}
+
+console.log(altString(numbers))
+
+
+
+
+
+
+
+
+
