@@ -37,7 +37,7 @@ const altString = array =>{
    let i = 0
    
 while(i < array.length){
-  string = string + array[i]
+  string += array[i]
   i++
 }
 
